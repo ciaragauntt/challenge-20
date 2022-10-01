@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Header from "./components/Header";
@@ -6,12 +7,14 @@ import Contact from "./components/Contact"
 
 function App() {
     return (
-        <div>
+        <main>
             <Navbar />
             <Header />
+            <About />
+            <Project />
             <Contact />
             <Footer />
-        </div>
+        </main>
     );
 }
 

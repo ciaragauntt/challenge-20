@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-    <div className="about-ciara">
+    <div className="about">
         {/* add image here */}
         <article>
             <h2>Get To Know Me!</h2>
